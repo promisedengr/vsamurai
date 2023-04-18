@@ -1,0 +1,36 @@
+{
+  "name": "nftcollection-backend",
+  "version": "1.0.0",
+  "description": "Backend for nft collection",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^5.13.1",
+    "agenda": "^4.2.1",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "celebrate": "^15.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.8",
+    "reflect-metadata": "^0.1.13",
+    "sharp": "^0.29.0",
+    "typedi": "^0.10.0",
+    "web3": "^1.5.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

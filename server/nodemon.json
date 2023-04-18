@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "verbose": true,
+    "execMap": {
+      "js": "node --max-old-space-size=8192 --inspect=9231 server/index.js"
+    },
+    "watch": [
+      "server/",
+      ".env"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "js,json"
+  }
